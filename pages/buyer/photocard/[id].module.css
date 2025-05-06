@@ -1,0 +1,171 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+  margin-bottom: 180px;
+}
+
+.market-place {
+  font-family: 'baskinRobbins';
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--gray-300);
+  width: 1480px;
+}
+
+.title {
+  width: 1480px;
+  height: 78px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--gray-100);
+  display: flex;
+  justify-content: space-between;
+}
+
+.photocard-image {
+  width: 960px;
+  height: 720px;
+  position: relative;
+}
+
+.card-container {
+  display: flex;
+  gap: 80px;
+}
+
+.card-info-container {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-description {
+  width: 440px;
+  max-height: 150px;
+  line-height: 26.06px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  overflow-y: auto;
+}
+
+.price-container {
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price,
+.remain {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--gray-300);
+}
+
+.point,
+.quantity {
+  display: flex;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+.remain-container {
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--gray-300);
+}
+
+.purchase-quantity-container {
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.purchase-quantity,
+.total-price {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.total-point-card-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 35px;
+}
+
+.total-point {
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+.total-card {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--gray-300);
+  display: flex;
+  align-items: center;
+}
+
+.total-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.exchange-container {
+  width: 1480px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.exchange-content {
+  font-size: 1.5rem;
+  font-weight: 700px;
+}
+
+.bar {
+  width: 440px;
+  height: 1px;
+  background-color: var(--gray-400);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.my-suggest-container {
+  margin-top: 60px;
+}
+
+.my-suggest-card-container {
+  margin-top: 20px;
+  overflow-x: hidden;
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+}

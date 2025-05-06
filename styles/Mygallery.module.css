@@ -1,0 +1,118 @@
+.mygallery-nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--gray-200);
+  padding-bottom: 20px;
+}
+
+.mygallery-title {
+  font-family: "baskinRobbins";
+  font-size: 62px;
+  line-height: 63.49px;
+  letter-spacing: -0.03em;
+  font-weight: bold;
+}
+
+.mygallery-main-container-nav {
+  display: flex;
+  max-width: 1480px;
+  margin: 40px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--gray-400);
+}
+
+.mygallery-main-container-dropdowns {
+  display: flex;
+  gap: 45px;
+  margin-left: 60px;
+  align-items: center;
+}
+
+.mygallery-nav-wrapper {
+  width: 1480px;
+  margin: 60px auto 0;
+}
+
+.mygallery-main-card-grid {
+  width: 1480px;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px;
+  margin-bottom: 60px;
+}
+
+.mygallery-grade-box-wrapper {
+  margin-top: 40px;
+}
+
+.mygallery-grade-box-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.75px;
+  color: var(--gray-200);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mygallery-grade-box-count {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.96px;
+  color: var(--gray-300);
+}
+
+.mygallery-grade-box-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.mygallery-grade-box {
+  height: 40px;
+  padding: 8px 20px 0;
+  font-weight: 300;
+  line-height: 23.17px;
+}
+
+.mygallery-grade-box-text {
+  margin-left: 5px;
+}
+
+.common {
+  color: var(--main);
+  border: 1px solid var(--main);
+}
+
+.rare {
+  color: var(--blue);
+  border: 1px solid var(--blue);
+}
+
+.super-rare {
+  color: var(--purple);
+  border: 1px solid var(--purple);
+}
+
+.legendary {
+  color: var(--red);
+  border: 1px solid var(--red);
+}
+
+.loading-skeleton {
+  background-color: var(--gray-400);
+  width: 80px;
+  height: 23px;
+  border-radius: 3px;
+}
+
+.loading-container {
+  width: fit-content;
+  margin: 50% auto;
+}
+
+.scroll-loading-container {
+  width: fit-content;
+  margin: 0 auto 60px;
+}

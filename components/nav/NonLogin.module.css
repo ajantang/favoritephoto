@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--gray-200);
+}
+
+.login {
+  color: var(--gray-200);
+}
+
+.signup {
+  color: var(--gray-200);
+}
+
+/* Tablet view */
+@media (min-width: 744px) and (max-width: 1199px) {
+}
+
+/* Mobile view */
+@media (max-width: 743px) {
+  .container {
+    gap: 0;
+  }
+
+  .signup {
+    display: none;
+  }
+
+  .user-drop {
+    margin-top: 0;
+    position: fixed; /* 고정 위치 */
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.market-place {
+  font-family: "baskinRobbins";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--gray-300);
+  width: 1480px;
+}
+
+.title {
+  width: 1480px;
+  height: 78px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  border-bottom: 2px solid var(--gray-100);
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-cotainer {
+  display: flex;
+  gap: 80px;
+}
+
+.info-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.exchange-container {
+  width: 1480px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  margin-bottom: 180px;
+}
+
+.exchange-content {
+  font-size: 1.5rem;
+  font-weight: 700px;
+}
+
+.blank {
+  margin-top: 180px;
+  margin-bottom: 180px;
+}

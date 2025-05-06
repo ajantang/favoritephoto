@@ -1,0 +1,89 @@
+.small,
+.medium {
+  display: flex;
+  gap: 15px;
+}
+
+.medium > .common {
+  font-size: 1.5rem;
+  font-weight: 700px;
+  color: var(--main);
+}
+
+.medium > .rare {
+  font-size: 1.5rem;
+  font-weight: 700px;
+  color: var(--blue);
+}
+
+.medium > .super-rare {
+  font-size: 1.5rem;
+  font-weight: 700px;
+  color: var(--purple);
+}
+
+.medium > .legendary {
+  font-size: 1.5rem;
+  font-weight: 700px;
+  color: var(--pink);
+}
+
+.medium > .bar {
+  font-size: 1.5rem;
+  font-weight: 700px;
+  color: var(--gray-400);
+}
+
+.medium > .category {
+  font-size: 1.5rem;
+  font-weight: 700px;
+  color: var(--gray-300);
+}
+
+.small > .common {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: var(--main);
+}
+
+.small > .rare {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: var(--blue);
+}
+
+.small > .super-rare {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: var(--purple);
+}
+
+.small > .legendary {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: var(--pink);
+}
+
+.small > .bar {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: var(--gray-400);
+}
+
+.small > .category {
+  font-size: 1rem;
+  font-weight: 400px;
+  color: var(--gray-300);
+}
+
+.small > .purchase {
+  font-weight: 400;
+  display: flex;
+  gap: 5px;
+  color: var(--gray-300);
+}
+
+.small > .purchase > .purchase-point {
+  font-weight: 400;
+  color: var(--white);
+}

@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 80px 99px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.title {
+  font-family: "baskinRobbins";
+  font-size: 46px;
+}
+
+.title-point {
+  color: var(--main);
+}
+
+.content {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+.time-container {
+  display: flex;
+  gap: 10px;
+}
+
+.next-time-text {
+  color: var(--gray-300);
+}
+
+.time {
+  color: var(--main);
+}
+
+.box-container {
+  display: flex;
+  gap: 60px;
+}
+
+.box {
+  cursor: pointer;
+}
+@media (min-width: 744px) and (max-width: 1199px) {
+  .container {
+    gap: 60px;
+    padding: 60px 35px;
+  }
+
+  .text-container {
+    gap: 30px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+
+  .time-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  .box-container {
+    gap: 25px;
+  }
+
+  .box {
+    width: 164.67px;
+    height: 127.11px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 743px) {
+  .container {
+    padding: 60px 14px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .content {
+    font-size: 16px;
+  }
+
+  .box-container {
+    gap: 15px;
+  }
+
+  .time-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+  }
+
+  .box {
+    width: 97.87px;
+    height: 75.87px;
+  }
+}

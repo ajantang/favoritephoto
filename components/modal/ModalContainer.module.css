@@ -1,0 +1,152 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.overlay.click {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.container {
+  position: relative;
+  background-color: var(--gray-500);
+  border-radius: 2px;
+}
+
+.container.click {
+  position: relative;
+  background-color: var(--gray-500);
+  border-radius: 2px;
+  position: relative;
+  width: auto;
+  height: auto;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+}
+
+.close-button {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  cursor: pointer;
+}
+
+.close-mobile-button {
+  display: none;
+}
+
+.button-box {
+  width: auto;
+  position: relative;
+}
+
+@media (min-width: 744px) and (max-width: 1199px) {
+  .container {
+    position: relative;
+    background-color: var(--gray-500);
+    border-radius: 2px;
+  }
+
+  .close-tablet-button {
+    position: absolute;
+    width: 48px;
+    height: 6px;
+    left: auto;
+    top: 15px;
+    background-color: var(--gray-400);
+    border-radius: 50px;
+  }
+
+  .close-mobile-button {
+    display: none;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  .container.click {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--gray-500);
+    border-radius: 2px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .overlay.click {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 743px) {
+  .container {
+    position: relative;
+    background-color: var(--gray-500);
+    border-radius: 2px;
+  }
+
+  .close-tablet-button {
+    display: none;
+  }
+
+  .close-mobile-button {
+    display: block;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 20px;
+    top: 19px;
+    cursor: pointer;
+  }
+
+  .close-button {
+    display: none;
+  }
+
+  .container.click {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--black);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-box {
+    width: 345px;
+    position: relative;
+  }
+}

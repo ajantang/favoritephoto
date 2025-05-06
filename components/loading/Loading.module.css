@@ -1,0 +1,13 @@
+.loading-cycle {
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  border-top-color: var(--main);
+  animation: spin 0.7s infinite ease-in-out;
+}
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}

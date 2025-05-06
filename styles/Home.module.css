@@ -1,0 +1,62 @@
+<<<<<<< HEAD
+=======
+.home-container {
+  width: 1480px;
+  margin: 0 auto;
+}
+
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+  border-bottom: 2px solid var(--gray-200);
+  padding-bottom: 20px;
+}
+
+.home-title {
+  font-family: "baskinRobbins";
+  font-size: 62px;
+  line-height: 63.49px;
+  letter-spacing: -0.03em;
+  font-weight: bold;
+}
+
+.home-main-container {
+  width: 1480px;
+  margin: 20px auto 0;
+}
+
+.home-main-container-nav {
+  display: flex;
+}
+
+.home-main-container-dropdowns {
+  display: flex;
+  gap: 45px;
+  margin-left: 60px;
+  align-items: center;
+}
+
+.home-main-container-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-main-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.loading-container {
+  width: fit-content;
+  margin: 50% auto;
+}
+
+.scroll-loading-container {
+  width: fit-content;
+  margin: 60px auto;
+}
+>>>>>>> develop

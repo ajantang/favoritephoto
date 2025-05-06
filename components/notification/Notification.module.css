@@ -1,0 +1,46 @@
+.notification {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.alarm {
+  cursor: pointer;
+  position: relative;
+}
+
+.notification-container {
+  width: 300px;
+  max-height: 535px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-bottom: 2px;
+  font-size: 14px;
+  line-height: 20.27px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: 26px;
+  right: 0;
+}
+
+.alarm-indicator {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--red);
+  position: absolute;
+
+  top: 0;
+  right: 0;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--white);
+  text-align: center;
+  line-height: 10.5px;
+}
+@media (min-width: 744px) and (max-width: 1199px) {
+}
+
+@media (min-width: 375px) and (max-width: 743px) {
+}

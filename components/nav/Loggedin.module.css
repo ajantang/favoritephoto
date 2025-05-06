@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--gray-200);
+}
+
+.random-point {
+  font-size: 18px;
+  line-height: 18.43px;
+  cursor: pointer;
+}
+
+.points {
+  font-weight: 700;
+}
+
+.alarm {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.nickname-container {
+  position: relative;
+}
+
+.nickname {
+  font-family: "baskinRobbins";
+  font-size: 18px;
+  line-height: 18.43px;
+  cursor: pointer;
+}
+
+.user-drop {
+  position: absolute; /* nickname 아래에 위치 */
+  top: 100%; /* nickname 바로 아래에 배치 */
+  right: 0;
+  margin-top: 5px;
+}
+
+.line {
+  color: var(--gray-400);
+  cursor: pointer;
+}
+
+.logout {
+  color: var(--gray-400);
+  cursor: pointer;
+}
+
+/* Tablet view */
+@media (min-width: 744px) and (max-width: 1199px) {
+}
+
+/* Mobile view */
+@media (max-width: 743px) {
+  .random-point {
+    display: none;
+  }
+  
+  .points {
+    display: none;
+  }
+
+  .alarm {
+    width: 22px;
+    height: 22px;
+  }
+
+  .nickname {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .logout {
+    display: none;
+  }
+  .user-drop {
+    margin-top: 0;
+    position: fixed; /* 고정 위치 */
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+}

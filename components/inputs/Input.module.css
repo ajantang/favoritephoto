@@ -1,0 +1,278 @@
+.default {
+  width: 520px;
+  height: 60px;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--gray-200);
+  padding-left: 20px;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+.container-search,
+.container-search-modal {
+  width: 320px;
+  height: 50px;
+  position: relative;
+  line-height: 23.17px;
+}
+
+.search,
+.search-modal {
+  width: 100%;
+  height: 100%;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--gray-200);
+  padding-left: 20px;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+.vector {
+  position: absolute;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  top: 13px;
+  right: 20px;
+}
+
+.container-password {
+  width: 520px;
+  height: 60px;
+  position: relative;
+  line-height: 23.17px;
+  background-color: var(--black);
+}
+
+.password {
+  width: 100%;
+  height: 100%;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--gray-200);
+  padding-left: 20px;
+  font-weight: 400;
+  border-radius: 2px;
+}
+
+.password:-webkit-autofill {
+  background-color: var(--black);
+}
+
+.container-price {
+  width: 245px;
+  height: 50px;
+  border-radius: 2px;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--gray-500);
+  font-size: 1.125rem;
+  padding: 0px 20px 0px 20px;
+  border: 1px solid var(--gray-200);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  width: 100%;
+  background-color: var(--gray-500);
+  font-weight: 400;
+  color: var(--white);
+  border: 0;
+}
+
+.textarea {
+  width: 520px;
+  height: 180px;
+  border-radius: 2px;
+  padding: 18px 20px 18px 20px;
+  background-color: var(--black);
+  border: 1px solid var(--gray-200);
+  color: var(--white);
+  font-weight: 400;
+  resize: none;
+}
+
+.textarea-440px {
+  width: 440px;
+  height: 120px;
+  border-radius: 2px;
+  padding: 18px 20px 18px 20px;
+  background-color: var(--black);
+  border: 1px solid var(--gray-200);
+  color: var(--white);
+  font-weight: 400;
+  resize: none;
+}
+
+.textarea-920px {
+  width: 920px;
+  height: 120px;
+  border-radius: 2px;
+  padding: 18px 20px 18px 20px;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-200);
+  color: var(--white);
+  font-weight: 400;
+  resize: none;
+}
+
+.textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.textarea {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.default.error,
+.password.error {
+  border: 1px solid var(--red);
+}
+
+.visibility-off,
+.visibility-on {
+  position: absolute;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  top: 18px;
+  right: 18px;
+}
+
+.search::placeholder,
+.password::placeholder,
+.textarea::placeholder,
+.default::placeholder {
+  color: var(--gray-200);
+  font-weight: 300;
+}
+
+@media (min-width: 744px) and (max-width: 1199px) {
+  .default {
+    width: 440px;
+    height: 55px;
+    font-size: 0.875rem;
+  }
+
+  .container-password {
+    width: 440px;
+    height: 55px;
+    font-size: 0.875rem;
+  }
+
+  .container-price {
+    width: 202px;
+    height: 45px;
+    font-size: 0.875rem;
+  }
+
+  .search,
+  .search-modal {
+    font-size: 0.875rem;
+  }
+
+  .container-search,
+  .container-search-modal {
+    width: 200px;
+    height: 45px;
+    font-size: 0.875rem;
+  }
+
+  .textarea-920px {
+    width: 704px;
+  }
+
+  .textarea {
+    width: 440px;
+    height: 140px;
+    padding: 12px 20px 12px 20px;
+    font-size: 0.875rem;
+  }
+
+  .vector {
+    position: absolute;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    top: 11.5px;
+    right: 11.5px;
+  }
+
+  .textarea-440px {
+    width: 342px;
+    height: 120px;
+    border-radius: 2px;
+    padding: 12px 20px 12px 20px;
+    font-size: 0.875rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 743px) {
+  .default {
+    width: 345px;
+    height: 55px;
+    font-size: 0.875rem;
+  }
+
+  .container-password {
+    width: 345px;
+    height: 55px;
+    font-size: 0.875rem;
+  }
+
+  .container-price {
+    width: 202px;
+    height: 45px;
+    font-size: 0.875rem;
+  }
+
+  .search,
+  .search-modal {
+    font-size: 0.875rem;
+  }
+
+  .container-search {
+    width: 345px;
+    height: 45px;
+    font-size: 0.875rem;
+  }
+
+  .container-search-modal {
+    width: 290px;
+    height: 45px;
+    font-size: 0.875rem;
+  }
+
+  .textarea-920px {
+    width: 345px;
+  }
+
+  .textarea {
+    width: 345px;
+    height: 140px;
+    padding: 12px 20px 12px 20px;
+    font-size: 0.875rem;
+  }
+
+  .textarea-440px {
+    width: 345px;
+    height: 140px;
+    border-radius: 2px;
+    padding: 12px 20px 12px 20px;
+    font-size: 0.875rem;
+  }
+
+  .vector {
+    position: absolute;
+    cursor: pointer;
+    width: 22px;
+    height: 22px;
+    top: 11.5px;
+    right: 11.5px;
+  }
+}
